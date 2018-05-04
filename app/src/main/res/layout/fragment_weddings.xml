@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.FragmentWeddings">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Weddings_item"
+        android:visibility="visible" />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="163dp"
+            tools:layout_editor_absoluteY="308dp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="188dp"
+            android:layout_height="190dp"
+            android:src="@mipmap/ic_launcher_round"
+            app:layout_constraintDimensionRatio="w,1:1"
+            tools:layout_editor_absoluteX="79dp"
+            tools:layout_editor_absoluteY="209dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            tools:layout_editor_absoluteX="279dp"
+            tools:layout_editor_absoluteY="446dp" />
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>

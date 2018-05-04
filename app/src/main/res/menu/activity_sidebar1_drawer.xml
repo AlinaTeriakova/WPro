@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_weddings"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/Weddings_item" />
+        <item
+            android:id="@+id/nav_contractors"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/Contractors_item" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/Calendar_item" />
+        <item
+            android:id="@+id/nav_notes"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/Notes_item" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:title="" />
+            <item
+                android:title="" />
+            <item
+                android:id="@+id/nav_aboutWP"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/AboutWP_item" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/Exit_item" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">WeddingPro</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Weddings_item">Свадьбы</string>
+    <string name="Contractors">Подрядчики</string>
+    <string name="Calendar">Календарь</string>
+    <string name="Notes_item">Заметки</string>
+    <string name="Calendar_item">Календарь</string>
+    <string name="Contractors_item">Подрядчики</string>
+    <string name="AboutWP_item">О WeddingPro</string>
+    <string name="Exit_item">Выход</string>
+    <string name="weddingpro">WeddingPro</string>
+</resources>

@@ -22,8 +22,8 @@
             android:layout_height="49dp"
             android:background="@color/colorAccent"
             android:src="@android:drawable/ic_menu_camera"
-            tools:layout_editor_absoluteX="174dp"
-            tools:layout_editor_absoluteY="222dp" />
+            tools:layout_editor_absoluteX="54dp"
+            tools:layout_editor_absoluteY="62dp" />
 
     </android.support.constraint.ConstraintLayout>
 
